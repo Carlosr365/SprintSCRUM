@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- <!-- Los CSS para pantallas grandes y pequeñas se llaman big_screen.css y small_screen.css respectivamente --> -->
+<html>
+  <head>
+    <title>Regístrate</title>
+    <link rel="stylesheet" href="big_screen.css" />
+  </head>
+  <body>
+    <div class="cuerpo">
+      <h1>Haz tu reservación</h1>
+      <h2>
+        Utiliza esta forma para hacer tu reservación, en base a ella se
+        calculará el costo total
+      </h2>
+      <p>
+        Ahora que ya viste cuán <a href="atracciones.html">maravilloso</a> puede
+        ser Oslo llena cuidadosamente los campos a continuación, después de que
+        tu solicitud halla sido procesada te enviaremos la información al e-mail
+        que proporciones, si hay algún dato que desees añadir agrégalo al final.
+      </p>
+      <form action="/reservar" method="post">
+        <ul>
+          <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="exp">Ya había viajado a Noruega:</label>
+            <input type="text" id="exp" name="exp" />
+          </li>
+          <li>
+            <label for="acompañantes">Acompañado:</label>
+            <input type="text" id="acompañantes" name="acompañantes" />
+          </li>
+          <li>
+            <label for="Residencia">Ciudad de Residencia:</label>
+            <input type="text" id="Residencia" name="Residencia" />
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <li>
+            <label for="msg">Información adicional:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li class="abajo">
+            <button type="submit">Enviar</button>
+          </li>
+        </ul>
+      </form>
+      <br />
+      <div id="ultimoslinks">
+        <a href="index.html">Inicio</a>
+        <a href="oslo.html">Oslo</a>
+        <a href="atracciones.html">Atracciones</a>
+        <a href="opiniones.html">Opiniones</a>
+        <a href="infoadicional.html">Información adicional</a>
+      </div>
+      <br />
+      <div class="cierre">
+        <div class="datos">
+          Carlos Alberto Rodríguez García. SUV - LDSW
+          <a href=" mailto: carlos.rodriguez3394@outlook.com">Contacto</a>
+          <br />
+          Actividad Integradora 2
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

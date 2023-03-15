@@ -1,0 +1,179 @@
+body {
+  background-color: #242424;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d3d3d3;
+  font-size: 14pt;
+  line-height: 1.6;
+}
+div.cuerpo {
+  background-color: #000000;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+h1 {
+  font-family: Times, Times New Roman, serif;
+  text-align: center;
+}
+h2 {
+  font-variant: small-caps;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  text-align: center;
+}
+div.nombres {
+  font-variant: small-caps;
+}
+.nombres .desc {
+  font-weight: lighter;
+  color: #aaaaaa;
+}
+div.lista {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  background-color: #000000;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #eeeeee;
+}
+.lista .nombre {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.lista .desc {
+  font-size: small;
+  color: #aaaaaa;
+}
+table.tabla {
+  background-color: #FCFFEE;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.tabla thead {
+  background: #A0DDB2;
+}
+table.tabla thead th {
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  margin: 50px;
+  font-weight: lighter;
+}
+br {
+  line-height: 150%;
+  display: block;
+  margin: 10px 0;
+}
+div.cierre {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #3f3f3f;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.cierre .datos {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}
+iframe {
+  display: block;
+  width: 420px;
+  height: 250px;
+  margin: auto;
+}
+a:link {
+  color: rgb(187, 140, 248);
+}
+a:visited {
+  color: rgb(179, 255, 0);
+}
+a:hover {
+  color: rgb(175, 61, 61);
+}
+a:active {
+  color: blue;
+}
+
+#ultimoslinks {
+  text-align: center;
+}
+div.opiniones {
+  background: rgb(0, 75, 161);
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  color: honeydew;
+}
+
+
+form {
+  margin: 0 auto;
+  width: 410px;
+  padding: 1em;
+  border: 1px solid rgb(0, 85, 85);
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90%;
+  text-align: left;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(0, 0, 0);
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.abajo {
+  padding-left: 0%;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+p {
+  margin: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}

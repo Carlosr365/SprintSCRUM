@@ -1,0 +1,175 @@
+body {
+  background-color: #202020;
+  font-family: Noto Sans, sans-serif;
+  color: #eeeeee;
+}
+div.cuerpo {
+  background-color: #313131;
+  margin-left: 3cm;
+  margin-right: 3cm;
+}
+h1 {
+  font-family: Times New Roman, serif;
+  font-stretch: condensed;
+  text-align: center;
+}
+h2 {
+  font-variant: small-caps;
+  text-align: center;
+  font-stretch: condensed;
+}
+h3 {
+  text-align: center;
+}
+div.nombres {
+  font-variant: small-caps;
+}
+.nombres .desc {
+  font-weight: lighter;
+  color: #aaaaaa;
+}
+div.list {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: #000000;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #eeeeee;
+}
+.list .nombre {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.list .desc {
+  font-size: small;
+  color: #aaaaaa;
+}
+table.tabla {
+  background-color: #FCFFEE;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.tabla thead {
+  background: #A0DDB2;
+}
+table.tabla thead th {
+  font-weight: bold;
+  text-align: center;
+}
+.columna {
+  display: flex;
+}
+.columnas {
+  flex: 33.33%;
+  padding: 5px;
+}
+p {
+  margin: 50px;
+  font-weight: lighter;
+  text-indent: 0.5in;
+}
+div.cierre {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #3f3f3f;
+  font-size: 16px;
+}
+.cierre .datos {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 12px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+iframe {
+  display: block;
+  width: 420px;
+  height: 250px;
+  margin: 0 auto;
+}
+a:link {
+  color: rgb(255, 37, 121);
+}
+a:visited {
+  color: rgb(165, 255, 21);
+}
+a:hover {
+  color: rgb(175, 61, 61);
+}
+a:active {
+  color: blue;
+}
+
+#ultimoslinks {
+  text-align: center;
+}
+div.opiniones {
+  background: rgb(0, 75, 161);
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  color: honeydew;
+}
+
+form {
+  margin: 0 auto;
+  width: 410px;
+  padding: 1em;
+  border: 1px solid rgb(0, 85, 85);
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(0, 0, 0);
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.abajo {
+  padding-left: 0%;
+}
+
+button {
+  margin-left: 0.5em;
+}
+p {
+  margin: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
